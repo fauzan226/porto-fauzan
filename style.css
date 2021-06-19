@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: helvetica, sans-serif;
+  padding-top: 77px;
+}
+header{
+  background: white;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 24px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.wrapper{
+max-width: 1024px;
+margin: 0 auto;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+.menu{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+}
+.menu li a {
+  margin: 0 12px;
+  font-size: 20pxpx;
+  text-decoration: none;
+  color:black;
+}
+.menu li a:hover{
+  color: blue;
+}
+#slider{
+  padding: 200px 0;
+  background: black;
+}
+.slider{
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color:white;
+}
+#about, #skill, #contact{
+  padding: 140px 0;
+}
+#skill{
+  background: black;
+}
+.about-content{
+  display: flex;
+  justify-content: space-between;
+}
+.about-image{
+  width: 30%;
+}
+.about-image img{
+  width: 100%;
+  text-align: center;
+}
+.about-text{
+  width: 60%;
+  line-height: 21px;
+  padding-left: 10%;
+}
+.skill-sets{
+  display: flex;
+}
+.skill-item{
+  background: white;
+  box-shadow: 0 1px 3px #ccc;
+  padding: 16px;
+  margin: 0 8px;
+  width: 50%;
+  border-radius: 8px;
+}
+.title{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.description{
+  font-size: 14px;
+  line-height: 18px;
+}
+.contact-info{
+  margin-top: 30px;
+}
+.contact-info p{
+  margin-bottom: 15px;
+}
